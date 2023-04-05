@@ -744,8 +744,8 @@ dd {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: 0 -2.5rem;
-     object-position: 0 -2.5rem;
+  -o-object-position: 0 -0.5rem;
+     object-position: 0 -0.5rem;
 }
 
 .partners__info {
@@ -1303,6 +1303,8 @@ dd {
 
   .partners__img img {
     height: 100%;
+    -o-object-position: 0 -2.5rem;
+       object-position: 0 -2.5rem;
   }
 
   .partners__info {
