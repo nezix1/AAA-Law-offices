@@ -897,6 +897,15 @@ dd {
   gap: 1.25rem;
 }
 
+
+@media (max-height: 50em) {
+  .intro {
+    height: auto;
+    padding-bottom: 30px;
+  }
+}
+
+
 @media (min-width: 29.99875em) {
   .footer__copy br {
     display: none;
