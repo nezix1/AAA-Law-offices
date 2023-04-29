@@ -36,20 +36,4 @@
     window["FLS"] = true;
     isWebp();
 })();
-
-$(document).ready(function() {
-    function setZoom() {
-      var width = $(window).width();
-      if (width <= 393) {
-        var zoom = width / 393 * 100;
-        $('body').css('zoom', zoom + '%');
-        console.log(zoom);
-      } else {
-        $('body').css('zoom', '');
-      }
-    }
-    
-    setZoom();
-    $(window).on('resize', setZoom);
-  });
   
