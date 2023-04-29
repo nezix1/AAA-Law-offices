@@ -26,11 +26,11 @@
         $("html").toggleClass("lock menu-open");
     }));
     $("body").on("click", ".menu__overlay", (function() {
-        $("html").removeClass("menu-open");
+        $("html").removeClass("lock menu-open");
     }));
     $(document).keyup((function(e) {
         if (27 == e.keyCode) {
-            $("html").removeClass("menu-open");
+            $("html").removeClass("lock menu-open");
         }
     }));
     window["FLS"] = true;
