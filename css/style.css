@@ -1521,7 +1521,7 @@ dd {
     margin-bottom: 1.875rem;
   }
   .mobile-articles-wrapper {
-    flex-direction: column-reverse;
+    flex-direction: column-reverse !important;
   }
 }
 
