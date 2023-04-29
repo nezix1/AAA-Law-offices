@@ -1392,7 +1392,7 @@ dd {
   }
 
   .logo--transparent {
-    width: 6.5625rem;
+    width: 5rem;
   }
 
   dl {
@@ -1519,6 +1519,9 @@ dd {
 
   .contacts__info address {
     margin-bottom: 1.875rem;
+  }
+  .mobile-articles-wrapper {
+    flex-direction: column-reverse;
   }
 }
 
@@ -2252,3 +2255,8 @@ dd {
     text-decoration: none;
   }
 }
+.mobile-articles-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
