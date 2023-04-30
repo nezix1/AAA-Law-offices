@@ -589,7 +589,7 @@ dd {
   border-top: 0.125rem solid #9F2727;
 }
 
-.footer__container {
+.footer__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1191,8 +1191,8 @@ dd {
 }
 
 @media (max-width: 61.99875em) {
-  .footer__articles {
-    display: none;
+  .footer__wrapper{
+    flex-direction:column;
   }
 
   .intro__info {
@@ -1519,9 +1519,6 @@ dd {
 
   .contacts__info address {
     margin-bottom: 1.875rem;
-  }
-  .mobile-articles-wrapper {
-    flex-direction: column-reverse !important;
   }
 }
 
@@ -2255,8 +2252,5 @@ dd {
     text-decoration: none;
   }
 }
-.mobile-articles-wrapper {
-  display: flex;
-  flex-direction: column;
-}
+
 
