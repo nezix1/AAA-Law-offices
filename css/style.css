@@ -1206,6 +1206,10 @@ dd {
     margin-right: auto;
   }
 
+  .intro__container {
+    justify-content: center;
+  }
+
   .intro__info ._button {
     margin: 0 auto;
   }
